@@ -1,15 +1,11 @@
-import './App.css'
-import { coursesArray } from "./data/courses";
-import Course from "./components/Course";
+import CoursesComponent from "./components/CoursesComponent";
 
-function App() {
+const App = () => {
   return (
       <div>
-        {coursesArray.map((course, index) => (
-            <Course key={index} course={course} />
-        ))}
+        <CoursesComponent />
       </div>
-  )
-}
+  );
+};
 
 export default App;

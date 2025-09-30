@@ -1,9 +1,4 @@
-export interface ICourse {
-    title: string;
-    monthDuration: number;
-    hourDuration: number;
-    modules: string[];
-}
+import type { ICourse } from "../models/ICourse";
 
 export const coursesArray: ICourse[] = [
     {
