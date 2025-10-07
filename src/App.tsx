@@ -1,10 +1,11 @@
 import './App.css'
+import {Products} from "./components/products-component/Products.tsx";
 
 function App() {
   return (
-    <>
-homework
-    </>
+    <div>
+        <Products/>
+    </div>
   )
 }
 
