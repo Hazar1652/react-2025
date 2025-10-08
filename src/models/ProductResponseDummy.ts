@@ -1,8 +1,0 @@
-import type {ProductModel} from "./ProductModel.ts";
-
-export interface ProductResponseDummy{
-    products:ProductModel[],
-    total:number,
-    skip:number,
-    limit:number
-}

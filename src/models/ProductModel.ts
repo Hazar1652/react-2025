@@ -1,10 +1,10 @@
-export interface Dimensions {
+export interface IDimensions {
   width: number;
   height: number;
   depth: number;
 }
 
-export interface Reviews {
+export interface IReviews {
   rating: number;
   comment: string;
   date: string;
@@ -12,14 +12,14 @@ export interface Reviews {
   reviewerEmail: string;
 }
 
-export interface Meta {
+export interface IMeta {
   createdAt: string;
   updatedAt: string;
   barcode: string;
   qrCode: string;
 }
 
-export interface ProductModel  {
+export interface IProductModel {
   id: number;
   title: string;
   description: string;
@@ -32,14 +32,14 @@ export interface ProductModel  {
   brand: string;
   sku: string;
   weight: number;
-  dimensions: Dimensions;
+  dimensions: IDimensions;
   warrantyInformation: string;
   shippingInformation: string;
   availabilityStatus: string;
-  reviews: Reviews[];
+  reviews: IReviews[];
   returnPolicy: string;
   minimumOrderQuantity: number;
-  meta: Meta;
+  meta: IMeta;
   images: string[];
   thumbnail: string;
 }
