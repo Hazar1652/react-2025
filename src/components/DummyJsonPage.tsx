@@ -1,4 +1,4 @@
-export const DummyJsonComponent = () => {
+export const DummyJsonPage = () => {
     return (
         <div>
             DummyJson

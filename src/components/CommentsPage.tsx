@@ -1,15 +1,12 @@
 import {Link, Outlet} from "react-router";
 
-
-export const PostsComponent = () => {
+export const CommentsPage = () => {
     return (
         <div>
-            Posts
+            Comments
             <hr/>
             <Link to="jsonplaceholder">  Go to JSON Placeholder</Link>
             <br/>
-            <Link to="dummyjson">  Go to Dummy Json</Link>
-
             <Outlet/>
         </div>
     );

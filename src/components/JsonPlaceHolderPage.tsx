@@ -1,4 +1,4 @@
-export const JsonPlaceHolderComponent = () => {
+export const JsonPlaceHolderPage = () => {
     return (
         <div>
             JsonPlaceHolder

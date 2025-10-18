@@ -1,4 +1,4 @@
-export const ProductsComponent = () => {
+export const ProductsPage = () => {
     return (
         <div>
             Products

@@ -1,7 +1,7 @@
 import {Link, Outlet} from "react-router";
 
 
-export const UsersComponent = () => {
+export const UsersPage = () => {
     return (
         <div>
         Users
