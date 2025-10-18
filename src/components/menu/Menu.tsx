@@ -13,9 +13,6 @@ export const Menu = () => {
             <li>
                 <Link to={'comments'}>comments</Link>
             </li>
-            <li>
-                <Link to={'products'}>products</Link>
-            </li>
         </ul>
     );
 };
