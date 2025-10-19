@@ -4,7 +4,7 @@ export interface User {
   fullName: string;
 }
 
-export interface IDummyJsonComment  {
+export interface IDummyJsonComment {
   id: number;
   body: string;
   postId: number;

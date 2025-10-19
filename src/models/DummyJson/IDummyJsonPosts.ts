@@ -3,7 +3,7 @@ export interface Reactions {
   dislikes: number;
 }
 
-export interface IDummyJsonPost  {
+export interface IDummyJsonPosts  {
   id: number;
   title: string;
   body: string;

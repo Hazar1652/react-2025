@@ -17,8 +17,7 @@ export interface Company {
   bs: string;
 }
 
-export interface IJsPlaceHolderUsers {
-  users: string[];
+export interface IjsPlaceHolderUsers  {
   id: number;
   name: string;
   username: string;

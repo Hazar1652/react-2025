@@ -1,4 +1,4 @@
-export interface IJsPlaceHolderComments {
+export interface IJsPlaceHolderComments  {
   postId: number;
   id: number;
   name: string;
