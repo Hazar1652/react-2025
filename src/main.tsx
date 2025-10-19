@@ -1,12 +1,12 @@
 import {createRoot} from 'react-dom/client'
 import './index.css'
 import {BrowserRouter, Route, Routes} from "react-router";
-import {UsersPage} from "./components/UsersPage.tsx";
-import {PostsPage} from "./components/PostsPage.tsx";
-import {CommentsPage} from "./components/CommentsPage.tsx";
+import {UsersPage} from "./Pages/UsersPage.tsx";
+import {PostsPage} from "./Pages/PostsPage.tsx";
+import {CommentsPage} from "./Pages/CommentsPage.tsx";
 import App from "./App.tsx";
-import {JsonPlaceHolderPage} from "./components/JsonPlaceHolderPage.tsx";
-import {DummyJsonPage} from "./components/DummyJsonPage.tsx";
+import {JsonPlaceHolderPage} from "./Pages/JsonPlaceHolderPage.tsx";
+import {DummyJsonPage} from "./Pages/DummyJsonPage.tsx";
 
 
 createRoot(document.getElementById('root')!)

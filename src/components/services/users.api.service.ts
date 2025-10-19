@@ -1,5 +1,21 @@
 const baseJsonUrl = import.meta.env.VITE_BASE_JSON_URL;
 const baseDummyUrl = import.meta.env.VITE_BASE_DUMMY_URL;
 
- export const getUsersJs = async () => fetch(`${baseJsonUrl}/users`).then(res => res.json());
- export const getUsersDummy = async () => fetch(`${baseDummyUrl}/users`).then(res => res.json());
+ export const getAllJson = async <T,>(endpoint:string):Promise<T> =>{
+  return await fetch(`${baseJsonUrl}${endpoint}`).then(res=>res.json())
+ }
+ // getAllJson<IJsPlaceHolderUsers[]>('/users')
+ // getAllJson<IJsPlaceHolderPosts[]>('/posts')
+ // getAllJson<IJsPlaceHolderComments[]>('/comments')
+
+
+export const getAllDummy = async <T,>(endpoint:string):Promise<T> =>{
+ return await fetch(`${baseDummyUrl}${endpoint}`).then(res=>res.json())
+}
+// getAllJson<IDummyJsonUsers[]>('/users')
+// getAllJson<IDummyJsonPost[]>('/posts')
+// getAllJson<IDummyJsonComment[]>('/comments')
+
+
+
+
