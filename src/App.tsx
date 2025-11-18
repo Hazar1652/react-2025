@@ -1,10 +1,13 @@
 import './App.css'
+import {UsersComponent} from "./components/UsersComponent.tsx";
 
 function App() {
-  return (
-    <>
-homework
-    </>
+  console.log('App');
+    return (
+    <div>
+        {/*викликаємо UsersComponent*/}
+        <UsersComponent/>
+    </div>
   )
 }
 
